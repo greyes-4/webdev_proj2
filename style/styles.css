@@ -1,0 +1,93 @@
+body {
+	background-color: silver
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+main-nav {
+	float: left;
+	width: 100px;
+	background-color: white;
+}
+#main-nav ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+nav ul li a:hover {
+	color: Black;
+	background-color: mediumorchid;
+	text-decoration: underline;
+}
+main-nav ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+}
+.nav-container {
+	display: flex;
+	justify-content: center;
+	unicode-bidi: isolate;
+	background-color: tan;
+	padding: 15px;
+	border-radius: 10px
+	box-shadow: 0px 4px 8px;
+}
+main-nav ul li a {
+	padding: 10px 25px;
+	display: block;
+	color: tan;
+}
+.navigation ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left; 
+	color: black;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navigation ul li {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 20px;
+	background-color: tan;
+}
+h1 {
+	top: 20px;
+	font-size: 3em;
+	font-family:system-ui;
+	color: black;
+	text-align:center;
+}
+div {
+	background-color: mediumorchid;
+	text-align: center;
+	display: flow;
+	padding: 20px;
+	border: 10px ridge silver;
+	width: 90%;
+	margin: 0px auto;
+	font-family: "cursive", fangson;
+}
+#box1 {
+	background-color: silver;
+	text-align: center;
+	display: flow;
+	padding: 20px;
+	border: 10px ridge silver;
+	width: 90%;
+	margin: 0px auto;
+	font-family: system.ui;
+}
