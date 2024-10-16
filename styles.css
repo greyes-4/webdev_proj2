@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #444;
+  padding: 15px 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+header ul li a:hover {
+  color: #ffd700; /* Gold color */
+}
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+  font-size: 28px;
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  font-size: 22px;
+  color: #555;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* List Styles */
+main ul {
+  list-style: disc inside;
+  margin-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header ul li {
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
