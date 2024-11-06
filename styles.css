@@ -129,3 +129,6 @@ section {
     height: 250px;
   }
 }
+iframe {
+	border: none;
+}
