@@ -9,7 +9,7 @@
 
 html, body {
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Specific font stack */
   line-height: 1.6;
   color: #333;
 }
