@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
@@ -14,9 +15,11 @@ html, body {
   color: #333;
 }
 
+
 body {
   background-color: #f4f4f4;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
@@ -24,32 +27,39 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+
 p {
   margin: 0;
 }
 
+
 ul, ol {
   list-style: none;
 }
+
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
+
 img, picture, video, canvas {
   max-width: 100%;
   display: block;
 }
+
 
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
+
 input, button, textarea, select {
   font: inherit;
 }
+
 
 button {
   border: none;
@@ -57,12 +67,12 @@ button {
   cursor: pointer;
 }
 
+
 iframe {
   border: none;
 }
 
+
 textarea {
   resize: vertical;
 }
-
-/* Optional: Add any additional custom styles below for your needs */
