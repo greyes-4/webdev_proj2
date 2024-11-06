@@ -1,104 +1,68 @@
-* {
+/* Reset CSS */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: Arial, sans-serif;
-  background-color: #e0f7fa;
-  color: #333;
   line-height: 1.6;
-  padding: 20px;
+  color: #333;
 }
 
-header {
-  background-color: #00796b;
-  padding: 15px 0;
+body {
+  background-color: #f4f4f4;
 }
 
-header ul {
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol {
   list-style: none;
-  display: flex;
-  justify-content: center;
 }
 
-header ul li {
-  margin: 0 15px;
-}
-
-header ul li a {
-  color: #fff;
+a {
   text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
+  color: inherit;
 }
 
-header ul li a:hover {
-  color: #ffeb3b; 
-}
-
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-main h1 {
-  color: #00796b;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-main h2 {
-  color: #004d40;
-  font-size: 22px;
-  margin-top: 20px;
-}
-
-main h3 {
-  color: #00695c;
-  font-size: 20px;
-  margin-top: 15px;
-}
-
-main p {
-  margin-bottom: 15px;
-}
-
-main img {
+img, picture, video, canvas {
   max-width: 100%;
   display: block;
-  margin: 15px 0;
-  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 iframe {
-  width: 100%;
-  height: 315px;
   border: none;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
-section {
-  margin-bottom: 30px;
+textarea {
+  resize: vertical;
 }
 
-@media (max-width: 768px) {
-  header ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header ul li {
-    margin: 10px 0;
-  }
-
-  iframe {
-    height: 250px;
-  }
-}
+/* Optional: Add any additional custom styles below for your needs */
